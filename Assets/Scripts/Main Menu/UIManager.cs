@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+    public GameObject MainMenu;
+    public GameObject SettingsMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,26 @@ public class UIManager : MonoBehaviour
     public void OnClickInfoPC()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("InfoPC");
+    }
+
+    //On click button settings
+    public void OnClickSettings()
+    {
+        MainMenu.SetActive(false);
+        SettingsMenu.SetActive(true);
+    }
+
+    //Return to Main Menu
+    public void ReturnMainMenu (int menuOrigin)
+    {
+        switch(menuOrigin)
+        {
+            //Settings Menu
+            case 0:
+                SettingsMenu.SetActive(false);
+                break;
+        }
+        MainMenu.SetActive(true);
     }
 
     //Quit application
