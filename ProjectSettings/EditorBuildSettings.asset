@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InfoPC.unity
     guid: 9345d21dec50eac498ee15246c797ca0
+  - enabled: 1
+    path: Assets/Scenes/IntelvsAMD.unity
+    guid: 5758c2f4bfb6e3e4caf442b69e36e023
   m_configObjects: {}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class MenuUIManager : MonoBehaviour
 {
     public GameObject MainMenu;
     public GameObject SettingsMenu;
@@ -26,6 +26,12 @@ public class UIManager : MonoBehaviour
     public void OnClickInfoPC()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("InfoPC");
+    }
+
+
+    public void OnClickIntelVsAMD()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("IntelvsAMD");
     }
 
     //On click button settings
