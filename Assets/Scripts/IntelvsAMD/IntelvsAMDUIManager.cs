@@ -5,7 +5,7 @@ using UnityEngine;
 public class IntelvsAMDUIManager : MonoBehaviour
 {
 
-    public GameObject MainMenu, AMDMenu, AMDPast;
+    public GameObject MainMenu, AMDMenu, AMDPast, AMDPresent;
 
 
     // Start is called before the first frame update
@@ -49,7 +49,16 @@ public class IntelvsAMDUIManager : MonoBehaviour
                 AMDPast.SetActive(false);
                 AMDMenu.SetActive(true);
                 break;
-
+            //From AMD Menu to AMD Present
+            case 5:
+                AMDMenu.SetActive(false);
+                AMDPresent.SetActive(true);
+                break;
+            //From AMD Present to AMD Menu
+            case 6:
+                AMDPresent.SetActive(false);
+                AMDMenu.SetActive(true);
+                break;
         }
     }
 }
