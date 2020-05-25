@@ -737,8 +737,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1617982019}
   m_HandleRect: {fileID: 1617982018}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.5502864
+  m_Value: 1
+  m_Size: 0.34839478
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Directx 13
+  m_text: Directx 12
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 755426782}
   - component: {fileID: 755426781}
   m_Layer: 5
-  m_Name: Logo
+  m_Name: Logo HwC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4913,7 +4913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Windows 11
+  m_text: Windows 10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5074,6 +5074,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.500006, y: -363.85013}
+  m_AnchoredPosition: {x: -8.500006, y: -363.85004}
   m_SizeDelta: {x: 1398.3, y: 1619.3}
   m_Pivot: {x: 0.5, y: 0.5}

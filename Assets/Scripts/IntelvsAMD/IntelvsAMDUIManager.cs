@@ -5,7 +5,7 @@ using UnityEngine;
 public class IntelvsAMDUIManager : MonoBehaviour
 {
 
-    public GameObject MainMenu, AMDMenu, AMDPast, AMDPresent, AMDFuture, IntelMenu, IntelPast, IntelPresent;
+    public GameObject MainMenu, AMDMenu, AMDPast, AMDPresent, AMDFuture, IntelMenu, IntelPast, IntelPresent,IntelFuture, CPUChoose;
 
 
     // Start is called before the first frame update
@@ -97,6 +97,26 @@ public class IntelvsAMDUIManager : MonoBehaviour
             //From Intel Present to Intel Menu
             case 14:
                 IntelPresent.SetActive(false);
+                IntelMenu.SetActive(true);
+                break;
+            //From IntelvsAMD Main Menu to CPUChoose
+            case 15:
+                MainMenu.SetActive(false);
+                CPUChoose.SetActive(true);
+                break;
+            //From CPUChoose to IntelvsAMD Main Menu
+            case 16:
+                CPUChoose.SetActive(false);
+                MainMenu.SetActive(true);
+                break;
+            //From Intel Menu to Intel Future
+            case 17:
+                IntelMenu.SetActive(false);
+                IntelFuture.SetActive(true);
+                break;
+            //From Intel Future to Intel Menu
+            case 18:
+                IntelFuture.SetActive(false);
                 IntelMenu.SetActive(true);
                 break;
         }

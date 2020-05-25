@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InfoPC" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACIggAAAQAAAAQAAAAAAEIEAAABEAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\InfoPC\InfoPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoPCLanguageManager" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAABBAAGAAgAEAAAACQAAAAEAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InfoPC\InfoPCLanguageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AMDPresent" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAKACAAAAAAAEAAEAAAABIAAAACEAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\IntelvsAMD\AMDPresent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntelPresent" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAKACAAAAAAAEAAAAAAABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IntelvsAMD\IntelPresent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntelvsAMDLanguageManager" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAQEEgBACCQEAAAICAACAACAEAAgAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\IntelvsAMD\IntelvsAMDLanguageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntelvsAMDUIManager" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAQAAABACCAEAAAAAAAAAAAQEAAAAAAAAAAAIIAAQAA=</HashCode>
+      <FileName>Assets\Scripts\IntelvsAMD\IntelvsAMDUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLanguageManager" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAAAAACAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\MenuLanguageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuSettings" Collapsed="true">
+    <Position X="2.75" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQkAAAAAAAAEAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\MenuSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuUIManager" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ggQAAAAAACAAAAAAAAAAAAAQAAAQAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Main Menu\MenuUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Behaviour" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object" Collapsed="true">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
