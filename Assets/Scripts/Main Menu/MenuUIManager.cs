@@ -6,6 +6,7 @@ public class MenuUIManager : MonoBehaviour
 {
     public GameObject MainMenu;
     public GameObject SettingsMenu;
+    public GameObject AboutMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +42,13 @@ public class MenuUIManager : MonoBehaviour
         SettingsMenu.SetActive(true);
     }
 
+    //On click button settings
+    public void OnClickAbout()
+    {
+        MainMenu.SetActive(false);
+        AboutMenu.SetActive(true);
+    }
+
     //Return to Main Menu
     public void ReturnMainMenu (int menuOrigin)
     {
@@ -49,6 +57,10 @@ public class MenuUIManager : MonoBehaviour
             //Settings Menu
             case 0:
                 SettingsMenu.SetActive(false);
+                break;
+            //About Menu
+            case 1:
+                AboutMenu.SetActive(false);
                 break;
         }
         MainMenu.SetActive(true);

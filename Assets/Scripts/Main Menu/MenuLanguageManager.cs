@@ -6,7 +6,7 @@ using UnityEngine;
 public class MenuLanguageManager : MonoBehaviour
 {
 
-    public TextMeshProUGUI Language, ReturnSettings;
+    public TextMeshProUGUI Language, ReturnSettings, ReturnAbout;
 
 
     // Start is called before the first frame update
@@ -36,12 +36,14 @@ public class MenuLanguageManager : MonoBehaviour
         {
            
             ReturnSettings.text = "VOLVER";
+            ReturnAbout.text = "Volver";
             Language.text = "IDIOMA";
         }
 
         if (language == "ENGLISH")
         {
             ReturnSettings.text = "RETURN";
+            ReturnAbout.text = "Return";
             Language.text = "LANGUAGE";
         }
     }

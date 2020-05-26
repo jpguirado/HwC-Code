@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class IntelvsAMDLanguageManager : MonoBehaviour
 {
-    public TextMeshProUGUI AMDPast, AMDPastText, AMDPresent, AMDPresentText, AMDFuture, AMDFutureRyzen4000Text, AMDFutureConsoleText, IntelPast, IntelPastText, IntelPresent, IntelPresentText, IntelFuture, WhichCPUChoose, CPUChooseAMD, CPUChooseIntel, WorldOfLaptops, WorldOfConsoles, IntelFutureManufacturing, IntelFutureGPUs, ManufacturingProcesses, IntelDiscretGPUs;
+    public TextMeshProUGUI AMDPast, AMDPastText, AMDPresent, AMDPresentText, AMDFuture, AMDFutureRyzen4000Text, AMDFutureConsoleText, IntelPast, IntelPastText, IntelPresent, IntelPresentText, IntelFuture, WhichCPUChoose, CPUChooseAMD, CPUChooseIntel, WorldOfLaptops, WorldOfConsoles, IntelFutureManufacturing, IntelFutureGPUs, ManufacturingProcesses, IntelDiscretGPUs, NumberOfCores;
     public Sprite ProcessorsDieESPSprite, ProccesorsDieENGSprite;
     public Image ProccesorsDieImage;
 
@@ -57,6 +57,7 @@ public class IntelvsAMDLanguageManager : MonoBehaviour
             IntelFutureGPUs.text = "Hasta ahora, Intel siempre ha acompañado a sus procesadores con tarjetas gráficas integradas en el mismo chip. Estas gráficas son poco potentes y están presentes para cumplir funciones básicas y livianas.\n\nAnte una situación en la que AMD, su principal competidor, está presente en el mundo de las GPUs y NVIDIA está comenzando a crear sus propios procesadores, Intel no se puede quedar atrás y planea entrar en el mundo de las tarjetas gráficas discretas.Para ello están contratando a gente reconocida del sector, procedentes de empresas líderes en el mismo.\n\nEstas gráficas empezarán a llegar al mercado a finales de 2020 y se conocerán bajo el nombre de Intel Xe.";
             ManufacturingProcesses.text = "Procesos de fabricación";
             IntelDiscretGPUs.text = "GPUs discretas de Intel";
+            NumberOfCores.text = "El número de núcleos que escoger dependerá de los requisitos específicos de nuestras aplicaciones o videojuegos más usados y de si serán capaces de aprovechar todos los núcleos. De igual forma, esto se verá afectado por el presupuesto de cada usuario.";
         }
 
 
@@ -84,6 +85,7 @@ public class IntelvsAMDLanguageManager : MonoBehaviour
             IntelFutureGPUs.text = "Until now, Intel has always accompanied its processors with graphics cards integrated on the same chip. These graphics are not very powerful and are present to fulfill basic and light functions.\n\nIn a situation where AMD, its main competitor, is present in the world of GPUs and NVIDIA is starting to create its own processors, Intel cannot be left behind and plans to enter the world of discrete graphics cards. For this they are hiring recognized people in the sector, from leading companies in it.\n\nThese graphics will begin to hit the market in late 2020 and will be known under the name Intel Xe.";
             ManufacturingProcesses.text = "Manufacturing processes";
             IntelDiscretGPUs.text = "Intel discrete GPU";
+            NumberOfCores.text = "The number of cores to choose will depend on the specific requirements of our most used applications or video games and whether they will be able to take advantage of all the cores. Similarly, this will be affected by the budget of each user.";
         }
     }
 }
